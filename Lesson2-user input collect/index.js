@@ -1,2 +1,6 @@
+// user input collect
+// var jahangir = prompt('Enter your names:');
+// console.log('Hi...' + jahangir);
+
 var jahangir = prompt('Enter your names:');
-console.log('Hi...' + jahangir);
+document.write('Hi...' + jahangir)
