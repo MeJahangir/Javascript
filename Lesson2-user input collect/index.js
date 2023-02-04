@@ -3,4 +3,7 @@
 // console.log('Hi...' + jahangir);
 
 var jahangir = prompt('Enter your names:');
-document.write('Hi...' + jahangir)
+document.write('Hi...' + jahangir);
+
+let number = prompt('Enter your number..');
+console.log(number);
