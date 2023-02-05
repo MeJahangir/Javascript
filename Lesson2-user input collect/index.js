@@ -18,4 +18,6 @@ function myFunction(x1,x2) {
     return x1 * x2;
 
 }
-document.getElementById('demo').innerHTML = myFunction(10,20);
+// document.getElementById('demo').innerHTML = myFunction(10,20);
+var result = myFunction(10, 20);
+console.log(result);
