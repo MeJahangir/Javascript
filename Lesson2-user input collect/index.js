@@ -8,11 +8,14 @@
 // let number = prompt('Enter your number..');
 // console.log(number);
 
-var fName = 'jahangir alam';
-var lName = 'alam';
-var fullName = fName + lName;
-console.log(fullName);
+// var fName = 'jahangir alam';
+// var lName = 'alam';
+// var fullName = fName + lName;
+// console.log(fullName);
 
-function myFunction() {
-    
+
+function myFunction(x1,x2) {
+    return x1 * x2;
+
 }
+document.getElementById('demo').innerHTML = myFunction(10,20);
