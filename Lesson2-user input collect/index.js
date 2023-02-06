@@ -21,4 +21,10 @@ function myFunction(x1,x2) {
 // document.getElementById('demo').innerHTML = myFunction(10,20);
 
 var result = myFunction(10, 20);
-console.log(result);
+// console.log(result);
+
+const names = [jahangir, alam,joy,munna,rafi];
+for (let name = 0; name < names.length; name++) {
+    const element = names[name];
+    
+}
