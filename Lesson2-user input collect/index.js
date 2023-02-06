@@ -25,6 +25,6 @@ var result = myFunction(10, 20);
 
 const names = [jahangir, alam,joy,munna,rafi];
 for (let name = 0; name < names.length; name++) {
-    const element = names[name];
-    
+    const result = names[name];
+    console.log(result);
 }
