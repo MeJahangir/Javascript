@@ -23,8 +23,8 @@ function myFunction(x1,x2) {
 var result = myFunction(10, 20);
 // console.log(result);
 
-const names = [jahangir, alam,joy,munna,rafi];
-for (let name = 0; name < names.length; name++) {
+const names = [1,2,3,4,5,6,7,8];
+for (let name = 1; name < names.length; name++) {
     const result = names[name];
     console.log(result);
 }
