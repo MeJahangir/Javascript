@@ -34,4 +34,6 @@ var a = 10;
 var b = 'jahangir';
 var c = true;
 // console.log(a + b);
-console.log(typeof(c));
+console.log(typeof(a)); //type chack
+console.log(typeof(b)); //type chack
+console.log(typeof(c)); //type chack
