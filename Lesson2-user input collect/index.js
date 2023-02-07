@@ -28,3 +28,8 @@ for (let name = 1; name < names.length; name++) {
     const result = names[name];
     console.log(result);
 }
+
+// data type 
+var a = 10;
+var b = 'jahangir';
+var c = true;
