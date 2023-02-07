@@ -33,3 +33,5 @@ for (let name = 1; name < names.length; name++) {
 var a = 10;
 var b = 'jahangir';
 var c = true;
+// console.log(a + b);
+console.log(typeof(c));
