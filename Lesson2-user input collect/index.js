@@ -37,3 +37,10 @@ var c = true;
 console.log(typeof(a)); //type chack
 console.log(typeof(b)); //type chack
 console.log(typeof(c)); //type chack
+ 
+let text = ' ';
+let i = 0;
+while ( i < 10 ) {
+  text += i;
+  i++;
+}
