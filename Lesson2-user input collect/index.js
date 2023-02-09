@@ -44,3 +44,4 @@ while ( i < 10 ) {
   text += i;
   i++;
 }
+console.log(text);
