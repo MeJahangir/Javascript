@@ -44,4 +44,7 @@ while ( i < 10 ) {
   text += i;
   i++;
 }
-console.log(text);
+// console.log(text);
+
+const results = [20, 30, 40, 50, 60];
+console.log(results);
