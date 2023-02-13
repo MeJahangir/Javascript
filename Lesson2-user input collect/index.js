@@ -47,4 +47,4 @@ while ( i < 10 ) {
 // console.log(text);
 
 const results = [20, 30, 40, 50, 60];
-console.log(results);
+console.log(typeof(results));
