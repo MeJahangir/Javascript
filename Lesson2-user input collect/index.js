@@ -48,3 +48,8 @@ while ( i < 10 ) {
 
 const results = [20, 30, 40, 50, 60];
 console.log(typeof(results));
+
+const jahangr = 20;
+if (jahangir > 100) {
+  console.log('you are right');
+}
