@@ -49,11 +49,12 @@ while ( i < 10 ) {
 const results = [20, 30, 40, 50, 60];
 console.log(typeof(results));
 
-let time = 9;
-if (time < 10) {
+const time = new Date().getHours();
+if (time > 10) {
   greeting = "Good morning";
-} else if (time < 20) {
+} else if (time < 0) {
   greeting = "Good day";
 } else {
   greeting = "Good evening";
 }
+console.log(greeting);
