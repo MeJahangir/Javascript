@@ -11,3 +11,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     // console.log(password);
     console.log(email, password);
 })
+// email and password condition
+if (email === 'jahangir@gmail.com' && password === 'Jahangir') {
+    window.location.href = 'bank.html'  
+}else{
+    console.log('Invalid user');
+}
