@@ -13,7 +13,8 @@ document.getElementById('btn-submit').addEventListener('click', function () {
 
     // email and password condition
     if (email === 'jahangir@gmail.com' && password === 'Jahangir') {
-        window.location.href = 'bank.html'  
+        window.location.href = 'bank.html';
+        // error alert system
     }else{
     alert('Invalid user');
     }
