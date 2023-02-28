@@ -9,11 +9,12 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const passwodFild = document.getElementById('user-password');
     const password = passwodFild.value;
     // console.log(password);
-    console.log(email, password);
+    // console.log(email, password);
+
+    // email and password condition
+    if (email === 'jahangir@gmail.com' && password === 'Jahangir') {
+        window.location.href = 'bank.html'  
+    }else{
+    alert('Invalid user');
+    }
 })
-// email and password condition
-if (email === 'jahangir@gmail.com' && password === 'Jahangir') {
-    window.location.href = 'bank.html'  
-}else{
-    console.log('Invalid user');
-}
