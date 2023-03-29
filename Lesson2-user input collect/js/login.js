@@ -8,7 +8,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     // step : 3 get the password collect
     const passwodFild = document.getElementById('user-password');
     const password = passwodFild.value;
-    console.log(password);
+    // console.log(password);
     // console.log(email, password);
 
     // email and password condition
@@ -19,3 +19,4 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     alert('Invalid user');
     }
 })
+    
