@@ -40,7 +40,7 @@ document.getElementById('btn-withdrow').addEventListener('click', function () {
     const balanceElement = document.getElementById('balance-total');
     const balanceStr = balanceElement.innerText;
     const withdrowBalance = parseFloat(balanceStr);
-    const updateBalance = withdrowBalance - withdrowTotalAmount;
+    const updateBalance = withdrowBalance - withdrowTotal;
     balanceElement.innerText = updateBalance;
     
 
