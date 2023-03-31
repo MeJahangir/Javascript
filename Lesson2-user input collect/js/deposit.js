@@ -21,4 +21,12 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
 
 });
 
+//withdrow area
+document.getElementById('btn-withdrow').addEventListener('click', function () {
+    const withdrowField =document.getElementById('withdrow');
+    const withdrowString = withdrowField.value;
+    const withdrowTotal = parseFloat(withdrowString);
+    console.log(withdrowTotal);
+})
+
 
