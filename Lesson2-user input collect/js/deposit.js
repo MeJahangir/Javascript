@@ -24,9 +24,26 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
 //withdrow area
 document.getElementById('btn-withdrow').addEventListener('click', function () {
     const withdrowField =document.getElementById('withdrow');
-    const withdrowString = withdrowField.value;
-    const withdrowTotal = parseFloat(withdrowString);
-    console.log(withdrowTotal);
-})
+    const withdrowType = withdrowField.value;
+    const withdrowTotal = parseFloat(withdrowType);
+    // console.log(withdrowTotal);
+
+    const withdrowDisplay = document.getElementById('withdrow-total');
+    const withdrowStr = withdrowDisplay.innerText;
+    const withdrowShow = parseFloat(withdrowStr)
+
+    const withdrowTotalAmount = withdrowTotal + withdrowShow;
+    withdrowDisplay.innerText = withdrowTotalAmount;
+    withdrowField.value = ' ';
+
+    // current balance 
+    const balanceElement = document.getElementById('balance-total');
+    const balanceStr = balanceElement.innerText;
+    const withdrowBalance = parseFloat(balanceStr);
+    const updateBalance = withdrowBalance - withdrowTotalAmount;
+    balanceElement.innerText = updateBalance;
+    
+
+})  
 
 
