@@ -35,7 +35,7 @@ document.getElementById('btn-withdrow').addEventListener('click', function () {
     const withdrowShow = parseFloat(withdrowStr)
 
      // alarm system add
-     if (withdrowShow > withdrowTotal) {
+     if (withdrowShow < withdrowTotal) {
         alert('Your balance not avelable');
         return;
      }
