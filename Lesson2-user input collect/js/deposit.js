@@ -9,11 +9,13 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     const previuseDepositTotal = parseFloat(previuseDepositString);
     const currentDepositTotal = previuseDepositTotal + newDeposit;
     depositTotalElement.innerText = currentDepositTotal;
+    
 
     // ballance total
     const balanceTotalElement = document.getElementById('balance-total');
     const balanceTotalString = balanceTotalElement.innerText;
     const newBalanceTotal = parseFloat(balanceTotalString);
+
 
     const currentBalanceTotal = newBalanceTotal + currentDepositTotal;
     balanceTotalElement.innerText = currentBalanceTotal;
@@ -31,6 +33,12 @@ document.getElementById('btn-withdrow').addEventListener('click', function () {
     const withdrowDisplay = document.getElementById('withdrow-total');
     const withdrowStr = withdrowDisplay.innerText;
     const withdrowShow = parseFloat(withdrowStr)
+
+     // alarm system add
+     if (withdrowShow > withdrowTotal) {
+        alert('Your balance not avelable');
+        return;
+     }
 
     const withdrowTotalAmount = withdrowTotal + withdrowShow;
     withdrowDisplay.innerText = withdrowTotalAmount;
