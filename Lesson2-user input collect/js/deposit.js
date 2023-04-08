@@ -50,8 +50,10 @@ document.getElementById('btn-withdrow').addEventListener('click', function () {
     const withdrowBalance = parseFloat(balanceStr);
     const updateBalance = withdrowBalance - withdrowTotal;
     balanceElement.innerText = updateBalance;
-    
-
 })  
 
 
+function getInpurElementId(elementId) {
+    const textElement = document.getElementById(elementId);
+    const
+}
