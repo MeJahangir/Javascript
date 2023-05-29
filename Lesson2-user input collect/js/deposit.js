@@ -52,8 +52,10 @@ document.getElementById('btn-withdrow').addEventListener('click', function () {
     balanceElement.innerText = updateBalance;
 })  
 
-
-function getInpurElementId(elementId) {
-    const textElement = document.getElementById(elementId);
-    const
-}
+// spacific function add
+// function getInpurElementId(elementId) {
+//     const textElement = document.getElementById(elementId);
+//     const textElementValueString = textElement.innerText;
+//     const textElementValue = parseFloat(textElementValueString);
+//     return textElementValue;
+// }
